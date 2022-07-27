@@ -120,7 +120,7 @@ function checkDatabase() {
         TODO: Insert the route name specified above.
       */
 
-      fetch(getAll.onsuccess, {
+      fetch("/api/transaction/bulk", {
         method: "POST",
         body: JSON.stringify(getAll.result),
         headers: {
