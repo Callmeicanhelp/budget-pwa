@@ -5,3 +5,5 @@ Name your transaction and amount and select either add or subtract funds to bala
 Functions on and off the web.
 
 Uses express with mongoose, compression, and morgan.
+
+***Portions of this code were provided by the instructor***
